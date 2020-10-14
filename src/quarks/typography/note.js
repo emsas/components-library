@@ -9,7 +9,7 @@ import {
   textDecorations,
 } from "../../utils/styled/typography";
 
-export const Abbr = styled.abbr`
+export const H1 = styled.h1`
   ${colors}
   ${fontSizes}
   ${fontWeights}
@@ -19,7 +19,7 @@ export const Abbr = styled.abbr`
   ${textDecorations}
 `;
 
-export const Cite = styled.cite`
+export const H2 = styled.h2`
   ${colors}
   ${fontSizes}
   ${fontWeights}
@@ -29,7 +29,7 @@ export const Cite = styled.cite`
   ${textDecorations}
 `;
 
-export const Span = styled.span`
+export const H3 = styled.h3`
   ${colors}
   ${fontSizes}
   ${fontWeights}
@@ -39,7 +39,7 @@ export const Span = styled.span`
   ${textDecorations}
 `;
 
-export const Q = styled.q`
+export const H4 = styled.h4`
   ${colors}
   ${fontSizes}
   ${fontWeights}
@@ -49,7 +49,7 @@ export const Q = styled.q`
   ${textDecorations}
 `;
 
-export const Small = styled.small`
+export const H5 = styled.h5`
   ${colors}
   ${fontSizes}
   ${fontWeights}
@@ -59,7 +59,7 @@ export const Small = styled.small`
   ${textDecorations}
 `;
 
-export const Strong = styled.strong`
+export const H6 = styled.h6`
   ${colors}
   ${fontSizes}
   ${fontWeights}
@@ -69,8 +69,7 @@ export const Strong = styled.strong`
   ${textDecorations}
 `;
 
-export const Em = styled.em`
-  font-style: normal;
+export const P = styled.p`
   ${colors}
   ${fontSizes}
   ${fontWeights}
@@ -80,7 +79,7 @@ export const Em = styled.em`
   ${textDecorations}
 `;
 
-export const Code = styled.code`
+export const Blockquote = styled.blockquote`
   ${colors}
   ${fontSizes}
   ${fontWeights}
@@ -90,7 +89,7 @@ export const Code = styled.code`
   ${textDecorations}
 `;
 
-export const Mark = styled.mark`
+export const Address = styled.address`
   ${colors}
   ${fontSizes}
   ${fontWeights}
@@ -100,7 +99,19 @@ export const Mark = styled.mark`
   ${textDecorations}
 `;
 
-export const Ins = styled.ins`
+export const Pre = styled.pre`
+  var {
+    
+  }
+  kbd {
+
+  }
+  code {
+
+  }
+  samp {
+
+  }
   ${colors}
   ${fontSizes}
   ${fontWeights}
@@ -110,32 +121,4 @@ export const Ins = styled.ins`
   ${textDecorations}
 `;
 
-export const Del = styled.del`
-  ${colors}
-  ${fontSizes}
-  ${fontWeights}
-  ${wordSpacings}
-  ${letterSpacings}
-  ${textTransforms}
-  ${textDecorations}
-`;
-
-export const Sup = styled.sup`
-  ${colors}
-  ${fontSizes}
-  ${fontWeights}
-  ${wordSpacings}
-  ${letterSpacings}
-  ${textTransforms}
-  ${textDecorations}
-`;
-
-export const Sub = styled.sub`
-  ${colors}
-  ${fontSizes}
-  ${fontWeights}
-  ${wordSpacings}
-  ${letterSpacings}
-  ${textTransforms}
-  ${textDecorations}
-`;
+//  ${lineHeights}

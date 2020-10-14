@@ -45,6 +45,30 @@ export const defaultTheme = {
     slacker: 1.5,
     slackest: 2,
   },
+  word_spacings: {
+    tight: -0.875,
+    normal: 0,
+    slack: 0.125,
+    slacker: 0.25,
+    slackest: 0.5,
+  },
+  text_transforms: {
+    capit: "capitalize",
+    upper: "uppercase",
+    lower: "lowercase",
+    empty: "none",
+  },
+  text_decorations: {
+    none: "none",
+    under: "underline",
+    line: "line-through",
+    over: "overline",
+    doble: "underline overline",
+  },
+  displays: {
+    hidden: "none",
+    visible: "block",
+  },
   font_families: ["Inter", "Open Sans", "sans-serif"],
   spaces: {
     x: {

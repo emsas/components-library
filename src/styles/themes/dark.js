@@ -45,6 +45,26 @@ export const darkTheme = {
     slacker: 1.5,
     slackest: 2,
   },
+  word_spacings: {
+    tight: -0.875,
+    normal: 0,
+    slack: 0.125,
+    slacker: 0.25,
+    slackest: 0.5,
+  },
+  text_transforms: {
+    capit: "capitalize",
+    upper: "uppercase",
+    lower: "lowercase",
+    empty: "none",
+  },
+  text_decorations: {
+    none: "none",
+    under: "underover",
+    line: "line-through",
+    over: "overline",
+    doble: "underline overline",
+  },
   font_families: ["Inter", "Open Sans", "sans-serif"],
   spaces: {
     x: {
